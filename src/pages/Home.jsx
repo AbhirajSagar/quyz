@@ -76,15 +76,6 @@ function FeaturedSection({navigateToAiQuiz,navigateToGames})
           <FontAwesomeIcon icon={faChalkboardTeacher} className="text-8xl -rotate-[16deg] text-blue-300 absolute bottom-17 right-15 opacity-50" />
         </div>
       </div>
-      <div className='w-full h-26 md:h-42 rounded-lg items-center flex bg-gradient-to-b from-accent-one to-blue-700'>
-        <div className='flex-grow px-12 flex-2/3 relative h-full flex justify-center flex-col overflow-hidden' onClick={navigateToGames}>
-          <h2 className='text-lg md:text-4xl font-extrabold text-white'>Try Quiz Games</h2>
-          <h2 className='text-xs md:text-lg font-normal text-gray-300'>Play quizzes as fun games!!</h2>
-          <FontAwesomeIcon icon={faGamepad} className="text-8xl -rotate-[14deg] text-blue-300 absolute -bottom-4 right-4 opacity-50" />
-          <FontAwesomeIcon icon={faShield} className="text-9xl -rotate-[34deg] text-blue-300 absolute bottom-6 right-35 opacity-50" />
-          <FontAwesomeIcon icon={faPuzzlePiece} className="text-8xl -rotate-[34deg] text-blue-300 absolute bottom-25 right-9 opacity-50" />
-        </div>
-      </div>
     </div>
   )
 }
